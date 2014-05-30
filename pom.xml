@@ -137,6 +137,10 @@
                         <arguments>${arguments} -Psonatype-oss-release</arguments>
                     </configuration>
                 </plugin>
+                <plugin>
+                    <artifactId>maven-gpg-plugin</artifactId>
+                    <version>1.5</version>
+                </plugin>
             </plugins>
         </pluginManagement>
         <extensions>
