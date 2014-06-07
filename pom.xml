@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -11,7 +10,7 @@
 
     <groupId>fr.jcgay.maven</groupId>
     <artifactId>jcgay-build-configuration</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>pom</packaging>
     <name>Maven build configuration</name>
     <description>This is the default Maven configuration I use to upload binaries on maven central.</description>
@@ -23,7 +22,7 @@
         <url>https://github.com/jcgay/jcgay-build-configuration.git</url>
         <connection>scm:git:git://github.com/jcgay/jcgay-build-configuration.git</connection>
         <developerConnection>scm:git:git@github.com:jcgay/jcgay-build-configuration.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v1.0</tag>
     </scm>
 
     <ciManagement>
