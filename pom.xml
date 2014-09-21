@@ -26,8 +26,8 @@
     </scm>
 
     <ciManagement>
-        <system>jenkins</system>
-        <url>https://jcgay.ci.cloudbees.com/job/${project.artifactId}/</url>
+        <system>travis-ci</system>
+        <url>https://travis-ci.org/jcgay/${project.artifactId}</url>
     </ciManagement>
 
     <issueManagement>
