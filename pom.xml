@@ -62,7 +62,7 @@
     </properties>
 
     <prerequisites>
-        <maven>3.0</maven>
+        <maven>3.0.4</maven>
     </prerequisites>
 
     <build>
@@ -212,7 +212,7 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>3.0</version>
+                                    <version>3.0.4</version>
                                 </requireMavenVersion>
                             </rules>
                         </configuration>
