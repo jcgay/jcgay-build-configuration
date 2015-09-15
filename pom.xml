@@ -4,7 +4,7 @@
 
     <groupId>fr.jcgay.maven</groupId>
     <artifactId>jcgay-build-configuration</artifactId>
-    <version>1.6</version>
+    <version>1.7-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Maven build configuration</name>
     <description>This is the default Maven configuration I use to upload binaries on maven central.</description>
@@ -16,7 +16,7 @@
         <url>https://github.com/jcgay/jcgay-build-configuration.git</url>
         <connection>scm:git:git://github.com/jcgay/jcgay-build-configuration.git</connection>
         <developerConnection>scm:git:git@github.com:jcgay/jcgay-build-configuration.git</developerConnection>
-        <tag>v1.6</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
