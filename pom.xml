@@ -59,6 +59,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <bintray.package>${project.artifactId}</bintray.package>
     </properties>
 
     <prerequisites>
@@ -310,6 +311,21 @@
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <artifactId>maven-deploy-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>bintray-deploy</id>
+                                <phase>deploy</phase>
+                                <goals>
+                                    <goal>deploy</goal>
+                                </goals>
+                                <configuration>
+                                    <altDeploymentRepository>bintray::default::https://api.bintray.com/maven/jcgay/maven/${bintray.package}</altDeploymentRepository>
+                                </configuration>
                             </execution>
                         </executions>
                     </plugin>

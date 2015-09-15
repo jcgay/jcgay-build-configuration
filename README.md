@@ -6,6 +6,17 @@ To release a project:
 
     mvn release:prepare release:perform
     
-To skip nexus-oss staging deployment (same as maven-deploy-plugin using `distributionManagement`):
+Binaries will be deployed on Maven Central and Bintray.
 
-    mvn deploy -DskipLocalStaging
+Authentication configuration in `settings.xml`:
+
+    <server>
+        <id>bintray</id>
+        <username>***</username>
+        <password>***</password>
+	</server>
+	<server>
+        <id>ossrh</id>
+        <username>***</username>
+        <password>***</password>
+    </server>
