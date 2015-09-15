@@ -20,3 +20,7 @@ Authentication configuration in `settings.xml`:
         <username>***</username>
         <password>***</password>
     </server>
+    <server>
+        <id>gpg.passphrase</id>
+        <passphrase>***</passphrase>
+    </server>
