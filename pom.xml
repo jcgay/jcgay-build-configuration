@@ -154,7 +154,6 @@
                         <releaseProfiles>release</releaseProfiles>
                         <goals>deploy</goals>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <localRepoDirectory>${java.io.tmpdir}</localRepoDirectory>
                     </configuration>
                 </plugin>
                 <plugin>
