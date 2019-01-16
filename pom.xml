@@ -78,10 +78,6 @@
         <bintray.package>${project.artifactId}</bintray.package>
     </properties>
 
-    <prerequisites>
-        <maven>3.0.4</maven>
-    </prerequisites>
-
     <build>
         <pluginManagement>
             <plugins>
@@ -236,7 +232,7 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>3.0.4</version>
+                                    <version>3.3.9</version>
                                 </requireMavenVersion>
                             </rules>
                         </configuration>
