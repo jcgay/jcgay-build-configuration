@@ -46,7 +46,7 @@
 
     <ciManagement>
         <system>travis-ci</system>
-        <url>https://travis-ci.org/jcgay/${project.artifactId}</url>
+        <url>https://travis-ci.com/github/jcgay/${project.artifactId}</url>
     </ciManagement>
 
     <issueManagement>
