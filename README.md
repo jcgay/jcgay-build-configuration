@@ -1,22 +1,17 @@
 Maven configuration to get binaries deploy to Maven central.
 
-[Sonatype guide](http://central.sonatype.org/pages/apache-maven.html)  
+[Sonatype guide](https://central.sonatype.org/publish/publish-portal-maven/)  
 
 To release a project:
 
     mvn release:prepare release:perform
     
-Binaries will be deployed on Maven Central and Bintray.
+Binaries will be deployed on Maven Central.
 
 Authentication configuration in `settings.xml`:
 
-    <server>
-        <id>bintray</id>
-        <username>***</username>
-        <password>***</password>
-	</server>
 	<server>
-        <id>ossrh</id>
+        <id>central</id>
         <username>***</username>
         <password>***</password>
     </server>
